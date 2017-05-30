@@ -12,15 +12,15 @@ namespace Lab3_cm
 {
     public partial class Form1 : Form
     {
-        readonly double[] x = { 0, 1, 2, 3, 4 };
-        readonly double[] f = { 1, 2, 1, 0, 4 };
+        readonly double[] x = { -2, 0, 2, 3 };
+        readonly double[] f = { 3, 4, 1, 2 };
 
         Polynomial LPoly;
         Polynomial PPoly;
         Polynomial QPoly;
         double standardDeviation;
 
-        const int mQPolyIndex = 1;
+        const int mQPolyIndex = 4;
 
         const string xRowString = "X";
         const string fRowString = "F";
